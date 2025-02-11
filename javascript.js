@@ -23,7 +23,7 @@ document.querySelector('.todo-form').addEventListener('submit', function(e) {
     completeButton.classList.add('complete');
     completeButton.textContent = '✔';
     completeButton.addEventListener('click', function() {
-      listItem.classList.toggle('completed');
+      listItem.classList.toggle('correct');
     });
 
     const deleteButton = document.createElement('button');
